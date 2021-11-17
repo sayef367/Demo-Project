@@ -24,6 +24,7 @@
     max-width: 240px;
     height: auto;
 }
+
 .top_margin{
     margin-top: 60px;
 }
@@ -116,7 +117,6 @@
 	border: none;
 	border-radius: 5px;
 	padding: 7px 26px;
-	/* margin-left: 20px; */
 	cursor: pointer;
 }
 .subscribe-button:hover {
