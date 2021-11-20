@@ -1,0 +1,68 @@
+
+
+.background-img1 {
+  background-image: url('images/desktop/image-header.jpg');
+  background-repeat: no-repeat;
+  background-size: clamp(320px, 100%, 1440px);
+  height: auto;
+  max-height: 1440px;
+
+}
+.header_p {
+  text-align: center;
+  font-size: clamp(1rem, -0.875rem + 8.333vw, 3.5rem);
+}
+.arrow {
+  text-align: center;
+  width: auto;
+  max-width: 1440px;
+  height: 300px;
+} 
+.boxItem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.a {
+  position: relative;
+  text-decoration: none;
+}
+.a:hover::after {
+  content: "";
+  position: absolute;
+  left: -5%;
+  right: -5%;
+  bottom: 0;
+  border: 5px solid Orange;
+}
+
+
+
+
+.imageSize {
+  height: auto;
+  max-height: 430px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+
+
+
+.footer{
+  padding-top: 60px;
+}
+.footerlink {
+  padding: 15px;
+}
+.footerIcon {
+  padding: 40px;
+}
+.icon {
+  padding: 10px;
+}
+.icon:hover {
+  background-color: aliceblue;
+}
