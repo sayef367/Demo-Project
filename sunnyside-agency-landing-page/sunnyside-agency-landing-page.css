@@ -1,3 +1,6 @@
+.font {
+  font-family: 'Fraunces', serif;
+}
 
 /* section 1 */
 
@@ -99,7 +102,7 @@
 
 /* section 4 */
 .section4 {
-  padding: 50px;
+  padding: 60px;
 }
 .section4_h {
   font-weight: bold;
@@ -115,15 +118,12 @@
 .section4_p1{
   font-size: 18px;
   padding-top: 50px;
-  padding-bottom: 50px;
+  padding-bottom: 30px;
 }
 .section4_p2{
   font-size: 18px;
+
 }
-
-
-
-
 
 /* section 5 */
 .image{
@@ -152,6 +152,8 @@
 }
 .footerlink {
   padding: 15px;
+  font-size: 18px;
+  color: white;
 }
 .footerIcon {
   padding: 40px;
