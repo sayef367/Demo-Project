@@ -1,7 +1,17 @@
+* {
+  padding: 0;
+}
 .font {
   font-family: 'Fraunces', serif;
 }
-
+.font_p {
+  font-family: 'Barlow', sans-serif;
+  color: hsl(213, 9%, 39%);
+}
+.padding {
+  padding-left: 0;
+  padding-right: 0;
+}
 /* section 1 */
 
 .background-img1 {
@@ -11,18 +21,6 @@
   background-size: cover;
   position: relative;
 }
-/* .button {
-  margin-left: 20px;
-  padding: 9px 25px;
-  background-color: rgba(0,136,169,1);
-  border: none;
-  border-radius: 50px;
-  cursor: pointer;
-  transition: all 0.3s ease 0s;
-}
-.button:hover {
-  background-color: hsl(210, 4%, 67%);
-} */
 
 .headerIcon {
   text-align: center;
@@ -40,6 +38,7 @@
 .boxItem {
   display: flex;
   align-items: center;
+  padding: 0;
 }
 .boxItem div{
   padding: 30px 50px 30px 50px;
@@ -72,7 +71,7 @@
 
 /* section 3 */
 .background-img2 {
-  height: 90vh;
+  height: 100vh;
   background-image: url(images/desktop/image-graphic-design.jpg);
   background-position: center;
   background-size: cover;
@@ -86,7 +85,7 @@
 }
 
 .background-img3 {
-  height: 90vh;
+  height: 100vh;
   background-image: url(images/desktop/image-photography.jpg);
   background-position: center;
   background-size: cover;
@@ -107,6 +106,8 @@
 .section4_h {
   font-weight: bold;
   padding-top: 60px;
+  color: hsl(210, 4%, 67%);
+  letter-spacing: 6px;
 }
 .section4 img{
   border-radius: 50%;
@@ -121,8 +122,9 @@
   padding-bottom: 30px;
 }
 .section4_p2{
-  font-size: 18px;
-
+  font-size: 16px;
+  font-family: 'Barlow', sans-serif;
+  color: hsl(210, 4%, 67%);
 }
 
 /* section 5 */
@@ -153,6 +155,11 @@
 .footerlink {
   padding: 15px;
   font-size: 18px;
+  color: hsl(167, 40%, 24%);
+  font-weight: bold;
+}
+.footerlink:hover{
+  text-decoration: none;
   color: white;
 }
 .footerIcon {
@@ -162,5 +169,5 @@
   padding: 10px;
 }
 .icon:hover {
-  background-color: hsl(0, 0%, 100%);
+  filter: brightness(0) invert(1);
 }
