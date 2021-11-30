@@ -67,12 +67,62 @@
   text-decoration: none;
   font-size: 20px;
 }
-
 .section2img {
   width:1200px;
   height:1400px;
 }
 
+.a1{
+    text-decoration: none;
+    color: hsl(212, 27%, 19%);
+    text-transform: uppercase;
+    font-weight: 800;
+    padding: .5rem;
+    position: relative;
+    cursor: pointer;
+    font-family: 'Fraunces', serif;
+}
+.a1::before{
+    content: "";
+    position: absolute;
+    bottom: .3rem;
+    left: 0;
+    width: 100%;
+    height: .7rem;
+    background: hsla(51, 100%, 49%, 0.404);
+    z-index: -1;
+    border-radius: .5rem;
+    transition: .35s;
+}
+.a1:hover::before{
+    background: hsl(51, 100%, 49%);
+}
+
+.a2{
+    text-decoration: none;
+    color: hsl(212, 27%, 19%);
+    text-transform: uppercase;
+    font-weight: 800;
+    padding: .5rem;
+    position: relative;
+    cursor: pointer;
+    font-family: 'Fraunces', serif;
+}
+.a2::before{
+    content: "";
+    position: absolute;
+    bottom: .3rem;
+    left: 0;
+    width: 100%;
+    height: .7rem;
+    background: hsla(7, 99%, 70%, 0.493);
+    z-index: -1;
+    border-radius: .5rem;
+    transition: .35s;
+}
+.a2:hover::before{
+    background: hsl(7, 99%, 70%);
+}
 
 
 /* section 3 */
