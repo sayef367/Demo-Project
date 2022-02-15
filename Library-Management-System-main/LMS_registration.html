@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="LMS_CSS.css">
+        <script src="javaScript.js"></script>
+    </head>
+    
+    <body class="body">
+        <ul class="ul">
+            <li class="home_li"><a href="index.html">Library Management System</a></li>
+            <li id="li"><a href="login.html">Log Out</a></li>
+            <li id="li"><a href="LMS_registration.html">Book Registration</a></li>
+        </ul>
+        <center>
+        <div class="color_div">
+            <h1 class="h1_color">Library Management System</h1>
+            <form method="post">
+                <table class="table" border="2" align="center" cellpadding="5" cellspacing="5">
+                    <tr>
+                        <td> Enter Book ID :</td>
+                        <td> <input type="text" name="isbn" id="mir_1" placeholder="Book ID" size="48"> </td>
+                    </tr>
+                    <tr>
+                        <td> Enter Title :</td>
+                        <td> <input type="text" name="title" id="mir_2" placeholder="Title" size="48"> </td>
+                    </tr>
+                    <tr>
+                        <td> Enter Author :</td>
+                        <td> <input type="text" name="author" id="mir_3" placeholder="Author" size="48"> </td>
+                    </tr>
+                    <tr>
+                        <td> Enter Edition :</td>
+                        <td> <input type="text" name="edition" id="mir_4" placeholder="Edition" size="48"> </td>
+                    </tr>
+                    <tr>
+                        <td> Enter Publication: </td>
+                        <td> <input type="text" name="publication" id="mir_5" placeholder="Publication" size="48"> </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="button" onClick="output()" Value="Submit" />
+                            <input type="reset" value="Reset">
+                        </td>
+                    </tr>
+                </table>
+            </form>
+            <h3 class="h1_color"><div align="center" id="result"></div></h3><br>
+            <h4><div class="h1_color" align="center" id="result"></div></h4>
+        </div>
+        </center>
+    </body>
+
+</html>

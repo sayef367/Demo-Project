@@ -1,0 +1,110 @@
+*
+/* Library Management System */
+.body {
+  background-image: url('hero.jpeg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+}
+.ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+.home_li{
+    float: left;
+}
+#li{
+    float: right;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover:not(.active) {
+    background-color: #111;
+}
+.h1_home {
+    color: rgb(0, 0, 0);
+}
+
+#myInput {
+    background-repeat: no-repeat;
+    width: 440px;
+    font-size: 16px;
+    padding: 12px 20px 12px 40px;
+    border: 1px solid #ddd;
+    margin-bottom: 12px;
+}
+#myUL {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+#myUL li a {
+    border: 1px solid #ddd;
+    margin-top: -1px;
+    /* Prevent double borders */
+    background-color: #f6f6f6;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    display: block
+}
+#myUL li a:hover:not(.header) {
+    background-color: #eee;
+}
+.div_search{
+    position:relative;
+    left: 460px;    
+    height: 100%;
+    width: 500px;
+}
+
+/* LMS registration & LogIn */
+.color_div{
+    position:relative;
+    top: 70px;
+    background: #333;
+    height: 520px;
+    width: 580px;
+    border: 2px solid #4CAF50;
+}
+.login_div {
+    position:relative;
+    top: 190px;
+    background: #333;
+    height: 300px;
+    width: 580px;
+    border: 2px solid #4CAF50;
+}
+.h1_color {
+    color: white;
+}
+.table {
+    background-color: #4CAF50;
+}
+.h1_style{
+    font-size: 50px;
+  color: yellow;
+  text-shadow: 2px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+footer {
+    background-color: transparent;
+    padding: 15px;
+    text-align: center;
+    color: black;
+}
+.logo_size{height: 20px; width: 20px;}
+.facebook:hover {border-radius: 10px;background-color: DodgerBlue;}
+.instagram:hover {border-radius: 10px;background-color: #8a3ab9;}
+.linkedin:hover {border-radius: 10px;background-color: #0e76a8;}
+.twitter:hover {border-radius: 10px;background-color: DodgerBlue;}
+.youtube:hover {border-radius: 10px;background-color: #f44336;}
