@@ -39,14 +39,14 @@
 
 .headerIcon {
   text-align: center;
-  padding: 40px;
+  padding-top: 60px;
 }
 .headerIcon p{
   font-size: 37px;
   letter-spacing: 6px;
 }
 .headerIcon img{
-  margin-top: 30px;
+  margin-top: 90px;
 }
 
 /* section 2 */
